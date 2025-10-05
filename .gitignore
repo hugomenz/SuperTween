@@ -31,3 +31,6 @@ temp/
 # Test files
 coverage/
 .nyc_output/
+
+# Demo files
+demo.html
