@@ -1,70 +1,70 @@
-# SPTween — Chrome Extension for Tweenvest
+# SPTween - Landing Page
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+Landing page para el plugin SPTween de Chrome, una herramienta profesional de análisis financiero.
 
-**SPTween** is a Chrome extension (Manifest V3) that enhances your Tweenvest experience with powerful features:
+## 🚀 Tecnologías
 
-- 📊 **Chart Presets**: Save and apply chart configurations with 1 click
-- 📝 **Notes/Cheatsheets**: Markdown notes for each chart
-- 🎯 **Custom Dashboard**: Choose which stocks appear on your dashboard
-- 🎨 **Metric Colors**: Highlight important metrics with custom colors
-- 📈 **Metric Comparator**: Compare metrics across multiple tickers
-- ⌨️ **Keyboard Shortcuts**: Quick access with Alt+S
+- **Angular 20** - Framework SPA
+- **TypeScript** - Lenguaje tipado
+- **SCSS** - Estilos preprocesados
+- **Responsive Design** - Compatible con todos los dispositivos
 
-## Installation
-
-### Manual Installation (Development)
-
-1. Clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable **Developer mode** (toggle in top-right corner)
-4. Click **Load unpacked** and select the repository folder
-5. The SPTween icon should appear in your extensions toolbar
-
-## Quick Start
-
-1. Install the extension
-2. Visit https://app.tweenvest.com/
-3. Press **Alt+S** to open the side panel
-4. Start saving presets and customizing your dashboard!
-
-## Features
-
-### 📊 Chart Presets
-Save chart configurations and apply them to any stock with one click.
-
-### 📝 Notes & Cheatsheets
-Add Markdown-formatted notes to your presets.
-
-### 🎯 Custom Dashboard
-Replace the default stock grid with your own selection.
-
-### 🎨 Metric Colors
-Highlight specific metrics with custom colors.
-
-### 📈 Comparator
-Compare metrics across multiple stocks.
-
-## Documentation
-
-- Full documentation: [docs/README_FULL.md](docs/README_FULL.md)
-- Stripe integration: [docs/stripe.md](docs/stripe.md)
-- Architecture guide: See main documentation
-
-## Development
+## 📦 Instalación
 
 ```bash
-# Load extension in Chrome
-chrome://extensions → Developer mode → Load unpacked
-
-# Start payment server (optional)
-cd server
+# Instalar dependencias
 npm install
-cp .env.example .env
+
+# Desarrollo local
+npm start
+
+# Build para producción
+npm run build
+```
+
+## 🌐 Desarrollo
+
+El servidor de desarrollo se inicia en `http://localhost:4200/`
+
+```bash
 npm start
 ```
 
-## License
+La aplicación se recargará automáticamente cuando hagas cambios en los archivos fuente.
 
-MIT
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+Los archivos compilados se guardarán en el directorio `dist/`.
+
+## 📋 Características de la Landing
+
+- **Hero Section**: Presentación del plugin con CTAs principales
+- **Características**: 6 características principales con badges
+- **Grupos de Análisis**: 5 grupos de presets organizados por sector
+  - REITs y Ladrillos
+  - Cíclicas y Químicas
+  - Consumo Defensivo
+  - Tech y Disruptores
+  - Bancos y Financieros
+- **Cómo Usar**: Guía paso a paso
+- **Footer**: Enlaces y recursos
+
+## 🎨 Diseño
+
+- Gradiente azul (#4a5a7f → #2d3e5f)
+- Acentos amarillo dorado (#ffd700)
+- Botones de acción con degradado coral
+- Badges de colores para cada característica
+- Diseño responsivo mobile-first
+
+## 📄 Licencia
+
+MIT License - Ver archivo [LICENSE](LICENSE)
+
+---
+
+**SPTween v0.1.0** - Plugin profesional para análisis financiero
